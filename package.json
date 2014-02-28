@@ -1,10 +1,10 @@
 {
-  "name": "CarbonBlueAtom",
+  "name": "Carbon Blue Atom",
   "theme": "syntax",
-  "version": "0.50.0",
+  "version": "0.0.1",
   "private": true,
   "description": "Carbon Blue theme for Atom",
-  "repository": "https://github.com/atom/carbon-blue",
+  "repository": "https://github.com/alexmgrant/carbon-blue-atom",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
