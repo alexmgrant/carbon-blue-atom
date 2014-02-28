@@ -1,0 +1,115 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/stylesheets/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+@import "colors";
+
+.editor-colors {
+  background-color: @base03;
+  color: @base1;
+}
+
+.editor {
+  .invisible-character,
+  .indent-guide {
+    color: @base1;
+  }
+
+  .gutter {
+    background-color: @base02;
+  }
+
+  .gutter .line-number {
+    opacity: 1;
+  }
+
+  .gutter .line-number.folded,
+  .gutter .line-number:after,
+  .fold-marker:after {
+    color: #fff;
+  }
+
+  .cursor {
+    border-color: @red;
+  }
+
+  .selection .region {
+    background-color: @highlight;
+    color: @highlight;
+    opacity: .6;
+  }
+
+  .line-number.cursor-line-no-selection {
+    background-color: @base01;
+  }
+}
+
+.bracket-matcher {
+  border-bottom: solid 2px @white;
+  margin-top: 3px;
+  opacity: 0.7;
+}
+
+.comment {
+  color: @comment;
+}
+
+.entity {
+  color: @base0;
+}
+
+.keyword {
+  color: @base0;
+}
+
+.storage.type {
+  color: @base0;
+}
+
+.constant {
+  color: @base1;
+
+  &.numeric,
+  &.boolean {
+    color: @blue;
+  }
+}
+
+.variable {
+  color: @blue;
+}
+
+.delimiter, .brace {
+  color: rgb(248, 248, 242);
+}
+
+.delimiter.period {
+  color: @blue;
+}
+
+.invalid.deprecated {
+  text-decoration: underline;
+  color: @red;
+}
+
+.invalid.illegal {
+  color: @red;
+}
+
+.string {
+  color: @blue;
+
+  .constant.character.escape {
+    color: @red;
+  }
+
+  &.regexp {
+    color: @base1;
+
+    .source.ruby.embedded,
+    .string.regexp.arbitrary-repitition {
+      color: @red;
+    }
+  }
+}
