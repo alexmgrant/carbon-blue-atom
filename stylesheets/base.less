@@ -19,7 +19,12 @@
   }
 
   .gutter .line-number {
-    opacity: 1;
+    color: @base1;
+    opacity: .3;
+  }
+
+  .line-number.cursor-line-no-selection {
+    color: @base1;
   }
 
   .gutter .line-number.folded,
@@ -38,9 +43,6 @@
     opacity: .8;
   }
 
-  .line-number.cursor-line-no-selection {
-    color: rgba(176,176,176,.5);
-  }
 }
 
 .bracket-matcher {
