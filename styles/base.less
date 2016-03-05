@@ -132,10 +132,9 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .variable {
-  color: @blue;
-
+  color: @variable;
   &.interpolation {
-    color: darken(@red, 10%);
+    color: @dark-red;
   }
 
   &.parameter.function {
@@ -195,7 +194,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.section.embedded {
-    color: darken(@red, 10%);
+    color: @dark-red;
   }
 
 }

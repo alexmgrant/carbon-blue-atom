@@ -1,11 +1,34 @@
 {
-  "name": "carbon-blue-atom",
+  "name": "carbon-blue-atom-syntax",
   "theme": "syntax",
   "version": "1.2.1",
   "description": "Carbon Blue theme for Atom",
-  "repository": "https://github.com/alexmgrant/carbon-blue-atom",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexmgrant/carbon-blue-atom.git"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
+  },
+  "readme": "# Carbon Blue Atom Syntax Theme\n\nThis is a syntax theme inspired by [CarbonnightBlue] (http://colorsublime.com/theme/CarbonightBlue) for atom.\n\nInstall with `apm install carbon-blue-atom`.\n\n![](http://evreewuhn.com/images/screen-shot-carbon-blue-atom.png)\n\n![](http://evreewuhn.com/images/carbon-blue-atom-highlight.png)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/alexmgrant/carbon-blue-atom/issues"
+  },
+  "homepage": "https://github.com/alexmgrant/carbon-blue-atom#readme",
+  "_id": "carbon-blue-atom@1.2.1",
+  "_shasum": "6aa3d3c9f2c135ebfdc433dc362afb6d2d1fef5e",
+  "_resolved": "file:../d-11624-4530-cajaie/package.tgz",
+  "_from": "../d-11624-4530-cajaie/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
   }
 }
