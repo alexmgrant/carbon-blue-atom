@@ -1,6 +1,6 @@
-# Carbon Blue Atom Syntax Theme
+# Carbon Blue Atom Syntax Theme <sup>*2.0!</sup>
 
-This is a syntax theme inspired by [CarbonnightBlue] (http://colorsublime.com/theme/CarbonightBlue) for atom.
+This is a syntax theme inspired by [CarbonnightBlue](http://colorsublime.com/theme/CarbonightBlue) for atom.
 
 Install with `apm install carbon-blue-atom`.
 
