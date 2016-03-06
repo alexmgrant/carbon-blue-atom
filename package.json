@@ -1,7 +1,7 @@
 {
   "name": "carbon-blue-atom",
   "theme": "syntax",
-  "version": "1.2.1",
+  "version": "2.0.0",
   "description": "Carbon Blue theme for Atom",
   "repository": {
     "type": "git",
