@@ -7,3 +7,7 @@ Install with `apm install carbon-blue-atom`.
 ![](http://evreewuhn.com/images/screen-shot-carbon-blue-atom.png)
 
 ![](http://evreewuhn.com/images/carbon-blue-atom-highlight.png)
+
+Works great with:  
+* `apm install nucleus-dark`
+* `apm install file-type-icons`
